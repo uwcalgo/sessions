@@ -10,7 +10,7 @@ Discussed languages
 		
 Problems
 	Greedy Gift Givers - http://uva.onlinejudge.org/external/1/119.html
-		Code: http://www.github.com/uwcalgo/sessions/code/1/GiftGivers.py
+		Code: http://www.github.com/uwcalgo/sessions/blob/master/code/1/GiftGivers.py
 	
 Take home problem
 	Common Ancestor - http://rosalind.info/problems/cons/
