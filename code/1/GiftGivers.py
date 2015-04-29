@@ -1,7 +1,6 @@
 
-# coding: utf-8
-
-# In[18]:
+# some sample data for the problem
+# from http://uva.onlinejudge.org/external/1/119.html
 
 data = """5
 dave laura owen vick amr
@@ -18,12 +17,11 @@ dave 0 2 steve liz
 """
 
 
-# In[3]:
+# real program starts here
+# StringIO allows us to treat strings as file-like objects
+# see: https://docs.python.org/2/library/stringio.html
 
 from StringIO import StringIO
-
-
-# In[19]:
 
 input_file = StringIO(data)
 def process_givers(input_file):
@@ -40,30 +38,20 @@ def process_givers(input_file):
             line = input_file.next()
             fields = line.rstrip().split()
             name = fields[0]
-            amount_given = float(fields[1])
-            num_given_to = float(fields[2])
+            amount_given = int(fields[1])
+            num_given_to = int(fields[2])
             people_given_to = fields[3:]
             amounts[name] = amounts.get(name, 0) - amount_given
             if num_given_to > 0:
                 for person in people_given_to:
                     amounts[person] = (amounts.get(person, 0) 
                                        + (amount_given/num_given_to))
-        return amounts
+        result = ""
+        for name in people:
+            result += "{} {}\n".format(name, amounts[name])
+        return result
     
-amounts = process_givers(input_file)
-while amounts:
-    print amounts
-    amounts = process_givers(input_file)
-
-
-# In[8]:
-
-mylist = [1,2,3]
-myslice = mylist[3:]
-print myslice
-
-
-# In[ ]:
-
-
-
+result = process_givers(input_file)
+while result:
+    print result
+    result = process_givers(input_file)
