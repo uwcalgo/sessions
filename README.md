@@ -1,5 +1,9 @@
 # UWC Algorithms Circle sessions
-A log of code from the algorithms circle sessions. Folder descriptions:
+This repository contains a log of code from the algorithms circle sessions. 
+
+Discussions can take place on our subreddit: https://www.reddit.com/r/uwcalgo/
+
+Folder descriptions:
 
 # Code
 The code that is done during the sessions can be found in this folder.
