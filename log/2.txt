@@ -11,7 +11,10 @@ Discussed languages
 		
 Problems
 	Common Ancestor - http://rosalind.info/problems/cons/
-	  - Code: http://www.github.com/uwcalgo/sessions/blob/master/code/2/
+	Code: http://www.github.com/uwcalgo/sessions/blob/master/code/2/
 	
 Take home problem
-	Coming soon.
+	Marching band (M) - http://www.olympiad.org.za/olympiad/wp-content/uploads/2013/01/SBITC-Heats-Problems-v-13-04-14-Final.pdf : Problem 3
+	Crowd Control (H) - http://www.olympiad.org.za/olympiad/wp-content/uploads/2014/09/2014-SBITC-Complete-problem-set.pdf : Problem 2
+	
+	Code: http://www.github.com/uwcalgo/sessions/blob/master/code/3/
