@@ -5,5 +5,5 @@ the Rosalind [Consensus and Profile problem](http://rosalind.info/problems/cons/
 
 ### Note
 
-Make use of the data in the datasets dir to run your solution and assert whether it is the same output as one of our solutions.
+Make use of the data in the datasets dir to run your solution and assert whether it is the same output as one of our solutions. Assert whether your output matches ours for all data sets.
 
