@@ -1,3 +1,9 @@
+# Run My Code
+If you want to run my code (on Linux), run:
+```
+$ g++ Marching_Band.cpp -o band.o
+$ cat data.txt | ./band.o
+```
 # Input
 ```
 2
