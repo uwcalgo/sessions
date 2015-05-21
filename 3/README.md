@@ -1,9 +1,21 @@
-# Session 2
-### 6 May 2015
+# Session 3
+### 13 May 2015
 
 Discussed languages
 ===================
+## Python
 
+### functions
+
+#### [ord](https://docs.python.org/2/library/functions.html#ord) 
+
+``` >>> ord('r')
+```114```
+
+#### [chr](https://docs.python.org/2/library/functions.html#chr)
+
+ ```>>> chr(114)```
+```'r'```
 		
 Problems
 ========
