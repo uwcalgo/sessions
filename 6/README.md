@@ -127,4 +127,6 @@ def fib(n):
 >>> decorated()
 before some_func
 2
-``` [Reference](http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/#_9_decorators)
+``` 
+
+[Reference](http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/#_9_decorators)
