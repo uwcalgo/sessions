@@ -1,6 +1,6 @@
 # Session 6
 
-###### 5 August 2015
+###### 5,19,26 August 2015
 
 
 Programming Methods
@@ -130,3 +130,8 @@ before some_func
 ``` 
 
 [Reference](http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/#_9_decorators)
+
+Problem
+=======
+
+Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack. [link](http://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/)
