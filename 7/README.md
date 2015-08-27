@@ -60,17 +60,21 @@ def sieve(n):
     return [2]+filter(None, sieve)
   ```
 
-  Adapted from [x]() by [HristoZA](https://github.com/HristoZA)
+  Adapted from [Martijn Pieters @ stackoverflow](https://stackoverflow.com/questions/20833956/nzec-error-in-python-code) by [HristoZA](https://github.com/HristoZA)
 
-  Problem
-  =======
+  Analysis discussion on [/r/uwcalgo](https://www.reddit.com/r/uwcalgo/comments/3ik6zw/analysis_of_third_primes_algorithm/)
+
+Problem
+=======
 
   Sum of prime from the Standard Bank IT challenge 2015 final problems.
 
   Given a number X, give the number of unique sum of two primes which gives X.
 
   Example, X=16
+
   11 + 5 = 16
+
   13 + 3 = 16
 
   2 unique sums
