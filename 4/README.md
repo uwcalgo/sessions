@@ -1,5 +1,5 @@
 # Session 4
-### 22 Jul 2015
+###### 22 Jul 2015
 
 Discussed languages
 ===================
@@ -63,7 +63,7 @@ another arg through *argv : test
 ```
 
 reference: [pythontips.com](http://pythontips.com/2013/08/04/args-and-kwargs-in-python-explained/)
-		
+
 Problems
 ========
 
